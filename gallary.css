@@ -1,0 +1,39 @@
+*{
+    flex-wrap: wrap;
+
+}
+body {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .gallary{
+      display: flex;
+      justify-content: center;
+      margin:8px;
+      
+  }
+
+  .gallary img{
+      margin-bottom: 9px;
+  }
+ 
+  .box{
+    justify-content: center;  
+    margin-bottom: 68px;
+    border: none;
+    outline: none;
+  }
+  
+  .gallary .card {
+      margin-right: 15px;
+      margin-bottom: 15px;
+      
+      
+  }
+
+  .card h3{
+    text-align: center;
+    color: white;
+    background-color: brown;
+    margin-top: -10PX;
+  }
